@@ -1,0 +1,6 @@
+{
+  "name": "University Self-Development Landing Page",
+  "description": "An interactive, beautifully designed landing page for university student self-development. Features customized roadmaps, self-assessment tests, a habit planner, curated tools, and Vercel/GitHub deployment guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
