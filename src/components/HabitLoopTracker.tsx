@@ -5,6 +5,11 @@ import {
   Award, BookOpen, Lightbulb, UserCheck, CheckCircle2, ShieldAlert
 } from 'lucide-react';
 
+// Character image assets bundled by Vite
+import bearImg from '../assets/images/bear_character_1780560918309.png';
+import chickImg from '../assets/images/chick_character_1780560933812.png';
+import puppyImg from '../assets/images/puppy_character_1780560951694.png';
+
 // Character Type definitions
 interface CompanionCharacter {
   id: string;
@@ -34,7 +39,7 @@ const CHARACTERS: CompanionCharacter[] = [
     textColor: 'text-indigo-900',
     accentBg: 'bg-indigo-100/80 text-indigo-700',
     emoji: '🐻',
-    imageUrl: '/src/assets/images/bear_character_1780560918309.png',
+    imageUrl: bearImg,
     quote: "“매일 작은 성공을 우직하고 성실하게 채우다 보면, 우리 올해 목표 모두 이룰 수 있을 곰!”",
     desc: '든든하고 우직한 태도로 매일의 약속을 지킵니다. 동반자가 되어 끈기 있고 한결같은 기쁨을 선물해 줘요.',
     routineTone: '오늘도 든든하게 실천 완수!'
@@ -49,7 +54,7 @@ const CHARACTERS: CompanionCharacter[] = [
     textColor: 'text-amber-900',
     accentBg: 'bg-amber-100/80 text-amber-800',
     emoji: '🐤',
-    imageUrl: '/src/assets/images/chick_character_1780560933812.png',
+    imageUrl: chickImg,
     quote: "“삐약이와 함께라면 빈틈없는 정밀 관리가 가능해요! 매일 계획대로 철저히 수행해봐요!”",
     desc: '모든 행동과 시간을 꼼꼼하게 조각내고 계획적으로 정돈해 내는 높은 디테일과 카타르시스를 선물합니다.',
     routineTone: '빈틈없이 꼼꼼하게 삐약 완료!'
@@ -64,7 +69,7 @@ const CHARACTERS: CompanionCharacter[] = [
     textColor: 'text-emerald-900',
     accentBg: 'bg-emerald-100/80 text-emerald-700',
     emoji: '🐶',
-    imageUrl: '/src/assets/images/puppy_character_1780560951694.png',
+    imageUrl: puppyImg,
     quote: "“천천히 가더라도 우리 같이 끝까지 긍정적으로! 나 자신을 믿고 오늘에 무한 몰입하자 멍!”",
     desc: '속도에 일희일비하지 않는 우직함과 활력 넘치는 몰입력을 발휘하여 끝까지 목표를 달성해 냅니다.',
     routineTone: '오늘도 꼬리 흔들며 완수 완료!'
@@ -342,7 +347,7 @@ export default function HabitLoopTracker() {
                   <UserCheck className="h-4 w-4" />
                 </div>
                 <h3 className="text-sm font-black text-slate-900 uppercase tracking-wider">
-                  STEP 1. 나만의 대리 캐릭터 선택하기 (나중에 이미지 삽입 가능)
+                  STEP 1. 나만의 대리 캐릭터 선택하기
                 </h3>
               </div>
 
