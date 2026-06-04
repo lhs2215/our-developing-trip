@@ -52,7 +52,7 @@ export default function RoadmapContainer() {
     { id: 'business', label: '비즈니스 & 기획', icon: Landmark, color: 'text-amber-600 bg-amber-50 border-amber-200' },
     { id: 'humanities', label: '인문학 & 글로벌', icon: BookOpen, color: 'text-emerald-600 bg-emerald-50 border-emerald-200' },
     { id: 'art', label: '예술 & 디자인', icon: Compass, color: 'text-fuchsia-600 bg-fuchsia-100 border-fuchsia-200' },
-    { id: 'general', label: '비전 & 실천력', icon: ClipboardList, color: 'text-violet-600 bg-violet-50 border-violet-200' }
+    { id: 'general', label: '공학 & 기술', icon: ClipboardList, color: 'text-violet-600 bg-violet-50 border-violet-200' }
   ];
 
   return (

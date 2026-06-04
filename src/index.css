@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;900&display=swap');
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Leeseoyun';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Leeseoyun.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Leeseoyun.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-display: "Outfit", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-leeseoyun: "Leeseoyun", sans-serif;
 
   /* Vibrant Indigo and emerald color palettes */
   --color-brand-50: #f5f3ff;
@@ -27,6 +37,10 @@
 }
 
 /* Custom styles and glassmorphism helpers for the Vibrant Palette */
+.font-leeseoyun {
+  font-family: 'Leeseoyun', sans-serif !important;
+}
+
 .glass-panel {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(16px);

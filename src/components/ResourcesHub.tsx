@@ -80,21 +80,7 @@ export default function ResourcesHub() {
           })}
         </div>
 
-        {/* Deploy callout info */}
-        <div className="mt-16 rounded-[32px] bg-gradient-to-r from-slate-950 to-indigo-950 p-6 sm:p-8 text-white relative overflow-hidden shadow-2xl border border-white/5">
-          <div className="absolute top-0 right-0 -z-0 h-32 w-32 rounded-full bg-indigo-600/20 blur-2xl" />
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 relative z-10">
-            <div className="space-y-1.5 max-w-2xl">
-              <span className="text-[10px] text-indigo-400 font-extrabold uppercase tracking-widest">GitHub & Vercel Deploy Ready</span>
-              <h3 className="font-display text-lg sm:text-2xl font-black tracking-tight">
-                나만의 맞춤 대학생 자기계발 랜딩페이지가 탄생했습니다
-              </h3>
-              <p className="text-xs text-slate-300 leading-relaxed">
-                이 템플릿과 로컬 상태 관리 기능 또한 Vercel 및 GitHub 인터페이스 규격에 맞춰 한 점 오차 없이 안전하게 패키징되었습니다. 지금 바로 Fork해 배포해보세요.
-              </p>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </section>
